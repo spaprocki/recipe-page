@@ -29,6 +29,9 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
 
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
     <title>Devchallenges</title>
 
   </head>
@@ -58,7 +61,7 @@
                 <p class="summary-value">12 servings</p>
               </div>
             </li>
-            <li>
+            <li id="prep-time">
               <span class="material-icons">
                 schedule
                 </span>
@@ -67,7 +70,7 @@
                 <p class="summary-value">45 minutes</p>
               </div>
             </li>
-            <li>
+            <li id="cook-time">
               <span class="material-icons">
                 schedule
                 </span>
@@ -76,7 +79,7 @@
                 <p class="summary-value">1 hour</p>
               </div>
             </li>
-            <li>
+            <li id="total-time">
               <span class="material-icons">
                 schedule
                 </span>
@@ -90,7 +93,7 @@
             <div id="ingredients-wrapper">
               <h2>Ingredients</h2>
               <h3>Graham Cracker Crust</h3>
-              <ul class="ingredients-list">
+              <ul id="ingredients-list">
                 <li>
                   <div class="ingredient-pointer"></div>
                   <p>1 and 1/2 cups (150g) <strong>graham cracker crumbs</strong>
@@ -106,7 +109,7 @@
                 </li>
               </ul>
               <h3>Cheesecake</h3>
-              <ul class="ingredients-list">
+              <ul id="ingredients-list">
                 <li>
                   <div class="ingredient-pointer"></div>
                   <p>four 8-ounce blocks (904g) full-fat <strong>cream cheese</strong>, 
@@ -141,14 +144,14 @@
               </ul>
             </div>
             <div id="instructions-wrapper">
-              <h2>Instructions</h2>
+              <h4>Instructions</h2>
               <ul id="instructions-list">
                 <li>
-                  <div class="instruction-pointer"></div>
+                  <div class="instruction-pointer"><p>1</p></div>
                   <p>Adjust the oven rack to the lower-middle position and preheat oven to 350°F (177°C).</p>
                 </li>
                 <li>
-                  <div class="instruction-pointer"></div>
+                  <div class="instruction-pointer"><p>2</p></div>
                   <p><strong>Make the crust:</strong> Using a food processor, 
                     pulse the graham crackers into crumbs. 
                     Pour into a medium bowl and stir in sugar 
@@ -166,7 +169,7 @@
                     as you prepare the filling.</p>
                 </li>
                 <li>
-                  <div class="instruction-pointer"></div>
+                  <div class="instruction-pointer"><p>3</p></div>
                   <p><strong>Make the filling:</strong> Using a handheld or stand mixer 
                     fitted with a paddle attachment, beat the cream cheese 
                     and granulated sugar together on medium-high speed 
@@ -181,7 +184,7 @@
                     as best you can.</p>
                 </li>
                 <li>
-                  <div class="instruction-pointer"></div>
+                  <div class="instruction-pointer"><p>4</p></div>
                   <p><strong>Prepare the simple water bath (see note)</strong> Boil a pot of water. 
                     You need 1 inch of water in your roasting pan for the water bath, 
                     so make sure you boil enough. I use an entire kettle of hot water. 
@@ -194,7 +197,7 @@
                     then pour the hot water in. Whichever is easier for you.)</p>
                 </li>
                 <li>
-                  <div class="instruction-pointer"></div>
+                  <div class="instruction-pointer"><p>5</p></div>
                   <p>Bake cheesecake for 55-70 minutes or until the center is almost set. 
                     When it’s done, the center of the cheesecake will slightly wobble
                      if you gently shake the pan. Turn the oven off and open the oven door 
@@ -204,14 +207,14 @@
                      the cheesecake for at least 4 hours or overnight.</p>
                 </li>
                 <li>
-                  <div class="instruction-pointer"></div>
+                  <div class="instruction-pointer"><p>6</p></div>
                   <p>Use a knife to loosen the chilled cheesecake from the rim 
                     of the springform pan, then remove the rim. Using a clean sharp 
                     knife, cut into slices for serving. For neat slices, 
                     wipe the knife clean and dip into warm water between each slice.</p>
                 </li>
                 <li>
-                  <div class="instruction-pointer"></div>
+                  <div class="instruction-pointer"><p>7</p></div>
                   <p>Serve cheesecake with desired toppings. Cover and store leftover 
                     cheesecake in the refrigerator for up to 5 days.</p>
                 </li>
@@ -219,7 +222,10 @@
             </div>
           </div>
         </div>
-        <a href="https://sallysbakingaddiction.com/classic-cheesecake/">Source: https://sallysbakingaddiction.com/classic-cheesecake/</a>
+        <p id="source">Source:<br/>
+          <a href="https://sallysbakingaddiction.com/classic-cheesecake/">https://sallysbakingaddiction.com/classic-cheesecake/</a>
+        </p>
+        
       </div>
       </main>
       <footer>created by <u>spaprocki</u> - devChallenges.io</footer>
