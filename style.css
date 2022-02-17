@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background-color: #FAFAFA;
+    font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+color: #333333;
+}
+
+#site-wrapper {
+    width: 94vw;
+    height: 997.3vw;
+    margin:auto;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    margin-top: 8.53vw;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    font-family: Playfair Display;
+    font-weight: bold;
+    font-size: 6.4vw;
+    color: #000000;
+}
+
+#description-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-top: 3.2vw;
+    border: solid black 1px;
+}
+
+#description-wrapper img {
+    width: 3.46vw;
+    height: auto;
+    border: solid black 1px;
+}
+
+#description-wrapper p {
+    font-size: 3.2vw;
+    color: #4F4F4F;
+    margin-left: 3.2vw;
+    border: solid black 1px;
+}
