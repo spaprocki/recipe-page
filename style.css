@@ -37,6 +37,7 @@ h1 {
   flex-direction: row;
   align-items: flex-start;
   margin-top: 3.2vw;
+  border: black 1px solid;
 }
 
 #description-wrapper img {
@@ -60,8 +61,9 @@ main {
 }
 
 main img {
-  width: 93.8vw;
+  width: 92vw;
   height: auto;
+  margin-top: 0.83vw;
 }
 
 #recipe-container {
@@ -111,7 +113,7 @@ main img {
   width: 100%;
 }
 
-#yields span {
+#yields #yields-span {
   color: #f2994a;
   font-size: 3.35vw;
   margin-top: 1.4vw;

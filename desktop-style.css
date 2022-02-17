@@ -1,0 +1,240 @@
+@media only screen and (min-width: 768px) {
+
+    #site-wrapper {
+        width: 67vw;
+        height: 207.6vw;
+      }
+      
+      header {
+        margin-top: 3.6vw;
+      }
+      
+      h1 {
+        font-size: 3.3vw;
+      }
+      
+      #description-wrapper {
+        margin-top: 0.83vw;
+      }
+      
+      #description-wrapper img {
+        width: 0.9vw;
+        margin-top: 0.41vw;
+      }
+      
+      #description-wrapper p {
+        font-size: 0.97vw;
+        margin-left: 0.83vw;
+        height: 3.54vw;
+        width: 41vw;
+        line-height: 0.97vw;
+      }
+      
+      main img {
+        width: 67vw;
+        margin-top: 1.18vw;
+      }
+      
+      #recipe-container {
+        flex-direction: row-reverse;
+        margin-top: 3.3vw;
+      }
+      
+      #summary-list {
+        flex-direction: column;
+        justify-content: space-around;
+        height: fit-content;
+        width: 15vw;
+        background: #FFFFFF;
+        box-shadow: 0px 0px 1.38vw rgba(0, 0, 0, 0.1);
+        border-radius: 0.83vw;
+      }
+
+      #summary-list li {
+        margin-left: 3vw;
+      }
+
+      #summary-list li span {
+        font-size: 1.85vw;
+        margin-top: 0vw;
+        align-self: center;
+      }
+      
+      .summary-text-wrapper {
+        margin-left: 0.94vw;
+        width: 20vw;
+      }
+      
+      .summary-name {
+        font-size: 0.69vw;
+      }
+      
+      .summary-value {
+        font-size: 0.97vw;
+      }
+      
+      #yields {
+        width: auto;
+        margin-top: 3.96vw;
+      }
+      
+      #yields #yields-span {
+        font-size: 1.85vw;
+        margin-top: 0vw;
+      }
+      
+      #prep-time {
+        margin-top: 2.98vw;
+      }
+      
+      #cook-time {
+        margin-top: 2.98vw;
+        margin-left: 0vw;
+      }
+      
+      #total-time {
+        margin-top: 2.98vw;
+        margin-left: 0vw;
+        margin-bottom: 3.47vw;
+      }
+      
+      #total-time .summary-text-wrapper {
+        width: auto;
+      }
+      
+      #ingredients-and-instructions-wrapper {
+        margin-top: 8vw;
+        display: flex;
+        flex-direction: column;
+      }
+      
+      #ingredients-wrapper {
+        display: flex;
+        flex-direction: column;
+      }
+      
+      h2 {
+        font-family: Playfair Display;
+        font-size: 4.8vw;
+        font-weight: bold;
+        color: #333333;
+      }
+      
+      h3 {
+        margin-top: 3.46vw;
+        font-family: Playfair Display;
+        font-style: italic;
+        font-weight: normal;
+        font-size: 4.27vw;
+        color: #333333;
+      }
+      
+      #ingredients-list {
+        margin-top: 6.4vw;
+        display: flex;
+        flex-direction: column;
+        list-style-type: none;
+      }
+      
+      #ingredients-list li {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 3.2vw;
+      }
+      
+      .ingredient-pointer {
+        min-width: 5.6vw;
+        height: 5.6vw;
+        border-radius: 1vw;
+        border: #828282 1px solid;
+      }
+      
+      #ingredients-list li p {
+        margin-top: 0.3vw;
+        font-size: 3.7vw;
+        line-height: 6.7vw;
+        margin-left: 2.1vw;
+      }
+      
+      #instructions-wrapper {
+          margin-top: 8vw;
+        display: flex;
+        flex-direction: column;
+      }
+      
+      h4 {
+          font-family: Playfair Display;
+      font-style: normal;
+      font-weight: bold;
+      line-height: 8.5vw;
+      font-size: 6.4vw;
+      }
+      
+      #instructions-list {
+        margin-top: 7.5vw;
+        display: flex;
+        flex-direction: column;
+        list-style-type: none;
+      }
+      
+      #instructions-list li {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 2.93vw;
+      }
+      
+      .instruction-pointer {
+        min-width: 9.6vw;
+        height: 9.6vw;
+        border-radius: 1.6vw;
+        background-color: #f2994a;
+        font-family: Playfair Display;
+        font-style: normal;
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      
+      .instruction-pointer>p{
+          color: #FFFFFF;
+          font-family: Playfair Display;
+          font-style: normal;
+          font-weight: bold;
+          font-size: 6.4vw;
+          margin-bottom: 1.6vw;
+        }
+      
+      #instructions-list li>p {
+        font-size: 4.2vw;
+        margin-left: 4vw;
+      font-weight: normal;
+      line-height: 6.4vw;
+      margin-bottom: 8vw;
+      
+      }
+      
+      #source {
+          margin-top: 6.9vw;
+          font-style: italic;
+          font-size: 3.2vw;
+          color: #BDBDBD;
+          height: 9.6vw;
+      }
+      
+      #source>a {
+          color: #BDBDBD;
+          font-weight: normal;
+          text-decoration: none;
+      }
+      
+      footer {
+          color: #a9a9a9;
+          margin-top: auto;
+          margin-bottom: 6.4vw;
+          text-align: center;
+          font-size: 3.7vw;;
+        }
+
+
+}
