@@ -2,7 +2,7 @@
 
     #site-wrapper {
         width: 67vw;
-        height: 207.6vw;
+        height: fit-content;
       }
       
       header {
@@ -172,25 +172,20 @@
       }
       
       #source {
-          margin-top: 6.9vw;
-          font-style: italic;
-          font-size: 3.2vw;
-          color: #BDBDBD;
-          height: 9.6vw;
+          margin-top: 3.96vw;
+          font-size: 1.1vw;
+          height: 1.67vw;
       }
+
+      #source>br {
+        display: none;
+    }
       
-      #source>a {
-          color: #BDBDBD;
-          font-weight: normal;
-          text-decoration: none;
-      }
       
       footer {
-          color: #a9a9a9;
-          margin-top: auto;
-          margin-bottom: 6.4vw;
-          text-align: center;
-          font-size: 3.7vw;;
+        margin-top: 6.46vw;
+          margin-bottom: 1.67vw;
+          font-size:0.97vw;
         }
 
 
