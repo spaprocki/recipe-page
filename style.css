@@ -37,7 +37,6 @@ h1 {
   flex-direction: row;
   align-items: flex-start;
   margin-top: 3.2vw;
-  border: black 1px solid;
 }
 
 #description-wrapper img {

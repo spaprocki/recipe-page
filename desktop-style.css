@@ -98,119 +98,76 @@
         margin-bottom: 3.47vw;
       }
       
-      #total-time .summary-text-wrapper {
-        width: auto;
-      }
-      
       #ingredients-and-instructions-wrapper {
-        margin-top: 8vw;
-        display: flex;
-        flex-direction: column;
-      }
-      
-      #ingredients-wrapper {
-        display: flex;
-        flex-direction: column;
+        margin-top: 0vw;
+        width: 40.4vw;
+        margin-left: 0vw;
+        margin-right: auto;
       }
       
       h2 {
-        font-family: Playfair Display;
-        font-size: 4.8vw;
-        font-weight: bold;
-        color: #333333;
+        font-size: 1.6vw;
       }
       
       h3 {
-        margin-top: 3.46vw;
-        font-family: Playfair Display;
-        font-style: italic;
-        font-weight: normal;
-        font-size: 4.27vw;
-        color: #333333;
+        margin-top: 2.2vw;
+        font-size: 1.25vw;
       }
       
       #ingredients-list {
-        margin-top: 6.4vw;
-        display: flex;
-        flex-direction: column;
-        list-style-type: none;
+        margin-top: 2.15vw;
       }
       
       #ingredients-list li {
-        display: flex;
-        flex-direction: row;
-        margin-bottom: 3.2vw;
+        margin-bottom: 0.97vw;
       }
       
       .ingredient-pointer {
-        min-width: 5.6vw;
-        height: 5.6vw;
-        border-radius: 1vw;
-        border: #828282 1px solid;
+        min-width: 1.46vw;
+        height: 1.46vw;
+        border-radius: 0.28vw;
       }
       
       #ingredients-list li p {
-        margin-top: 0.3vw;
-        font-size: 3.7vw;
-        line-height: 6.7vw;
-        margin-left: 2.1vw;
+        margin-top: 0.06vw;
+        font-size: 1.1vw;
+        line-height: 1.74vw;
+        margin-left: 1.18vw;
       }
       
       #instructions-wrapper {
-          margin-top: 8vw;
-        display: flex;
-        flex-direction: column;
+          margin-top: 0.97vw;
       }
       
       h4 {
-          font-family: Playfair Display;
-      font-style: normal;
-      font-weight: bold;
-      line-height: 8.5vw;
-      font-size: 6.4vw;
+      line-height: 2.2vw;
+      font-size: 1.67vw;
       }
       
       #instructions-list {
-        margin-top: 7.5vw;
-        display: flex;
-        flex-direction: column;
-        list-style-type: none;
+        margin-top: 1.94vw;
       }
       
       #instructions-list li {
-        display: flex;
-        flex-direction: row;
-        margin-bottom: 2.93vw;
+        margin-bottom: 2.2vw;
       }
       
       .instruction-pointer {
-        min-width: 9.6vw;
-        height: 9.6vw;
-        border-radius: 1.6vw;
-        background-color: #f2994a;
-        font-family: Playfair Display;
-        font-style: normal;
-        font-weight: bold;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        min-width: 2.5vw;
+        height: 2.5vw;
+        border-radius: 0.42vw;
       }
       
       .instruction-pointer>p{
-          color: #FFFFFF;
-          font-family: Playfair Display;
-          font-style: normal;
-          font-weight: bold;
-          font-size: 6.4vw;
-          margin-bottom: 1.6vw;
+          font-size: 1.67vw;
+          margin-bottom: 0.49vw;
         }
       
       #instructions-list li>p {
-        font-size: 4.2vw;
-        margin-left: 4vw;
-      font-weight: normal;
-      line-height: 6.4vw;
-      margin-bottom: 8vw;
+        font-size: 1.1vw;
+        margin-left: 1vw;
+      line-height: 1.67vw;
+      margin-bottom: 2vw;
       
       }
       
