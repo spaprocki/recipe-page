@@ -1,192 +1,187 @@
 @media only screen and (min-width: 768px) {
+  #site-wrapper {
+    width: 67vw;
+    height: fit-content;
+  }
 
-    #site-wrapper {
-        width: 67vw;
-        height: fit-content;
-      }
-      
-      header {
-        margin-top: 3.6vw;
-      }
-      
-      h1 {
-        font-size: 3.3vw;
-      }
-      
-      #description-wrapper {
-        margin-top: 0.83vw;
-      }
-      
-      #description-wrapper img {
-        width: 0.9vw;
-        margin-top: 0.41vw;
-      }
-      
-      #description-wrapper p {
-        font-size: 0.97vw;
-        margin-left: 0.83vw;
-        height: 3.54vw;
-        width: 41vw;
-        line-height: 0.97vw;
-      }
-      
-      main img {
-        width: 67vw;
-        margin-top: 1.18vw;
-      }
-      
-      #recipe-container {
-        flex-direction: row-reverse;
-        margin-top: 3.3vw;
-      }
-      
-      #summary-list {
-        flex-direction: column;
-        justify-content: space-around;
-        height: fit-content;
-        width: 15vw;
-        background: #FFFFFF;
-        box-shadow: 0px 0px 1.38vw rgba(0, 0, 0, 0.1);
-        border-radius: 0.83vw;
-      }
+  header {
+    margin-top: 3.6vw;
+  }
 
-      #summary-list li {
-        margin-left: 3vw;
-      }
+  h1 {
+    font-size: 3.3vw;
+  }
 
-      #summary-list li span {
-        font-size: 1.85vw;
-        margin-top: 0vw;
-        align-self: center;
-      }
-      
-      .summary-text-wrapper {
-        margin-left: 0.94vw;
-        width: 20vw;
-      }
-      
-      .summary-name {
-        font-size: 0.69vw;
-      }
-      
-      .summary-value {
-        font-size: 0.97vw;
-      }
-      
-      #yields {
-        width: auto;
-        margin-top: 3.96vw;
-      }
-      
-      #yields #yields-span {
-        font-size: 1.85vw;
-        margin-top: 0vw;
-      }
-      
-      #prep-time {
-        margin-top: 2.98vw;
-      }
-      
-      #cook-time {
-        margin-top: 2.98vw;
-        margin-left: 0vw;
-      }
-      
-      #total-time {
-        margin-top: 2.98vw;
-        margin-left: 0vw;
-        margin-bottom: 3.47vw;
-      }
-      
-      #ingredients-and-instructions-wrapper {
-        margin-top: 0vw;
-        width: 40.4vw;
-        margin-left: 0vw;
-        margin-right: auto;
-      }
-      
-      h2 {
-        font-size: 1.6vw;
-      }
-      
-      h3 {
-        margin-top: 2.2vw;
-        font-size: 1.25vw;
-      }
-      
-      #ingredients-list {
-        margin-top: 2.15vw;
-      }
-      
-      #ingredients-list li {
-        margin-bottom: 0.97vw;
-      }
-      
-      .ingredient-pointer {
-        min-width: 1.46vw;
-        height: 1.46vw;
-        border-radius: 0.28vw;
-      }
-      
-      #ingredients-list li p {
-        margin-top: 0.06vw;
-        font-size: 1.1vw;
-        line-height: 1.74vw;
-        margin-left: 1.18vw;
-      }
-      
-      #instructions-wrapper {
-          margin-top: 0.97vw;
-      }
-      
-      h4 {
-      line-height: 2.2vw;
-      font-size: 1.67vw;
-      }
-      
-      #instructions-list {
-        margin-top: 1.94vw;
-      }
-      
-      #instructions-list li {
-        margin-bottom: 2.2vw;
-      }
-      
-      .instruction-pointer {
-        min-width: 2.5vw;
-        height: 2.5vw;
-        border-radius: 0.42vw;
-      }
-      
-      .instruction-pointer>p{
-          font-size: 1.67vw;
-          margin-bottom: 0.49vw;
-        }
-      
-      #instructions-list li>p {
-        font-size: 1.1vw;
-        margin-left: 1vw;
-      line-height: 1.67vw;
-      margin-bottom: 2vw;
-      
-      }
-      
-      #source {
-          margin-top: 3.96vw;
-          font-size: 1.1vw;
-          height: 1.67vw;
-      }
+  #description-wrapper {
+    margin-top: 0.83vw;
+  }
 
-      #source>br {
-        display: none;
-    }
-      
-      
-      footer {
-        margin-top: 6.46vw;
-          margin-bottom: 1.67vw;
-          font-size:0.97vw;
-        }
+  #description-wrapper img {
+    width: 0.9vw;
+    margin-top: 0.41vw;
+  }
 
+  #description-wrapper p {
+    font-size: 0.97vw;
+    margin-left: 0.83vw;
+    height: 3.54vw;
+    width: 41vw;
+    line-height: 0.97vw;
+  }
 
+  main img {
+    width: 67vw;
+    margin-top: 1.18vw;
+  }
+
+  #recipe-container {
+    flex-direction: row-reverse;
+    margin-top: 3.3vw;
+  }
+
+  #summary-list {
+    flex-direction: column;
+    justify-content: space-around;
+    height: fit-content;
+    width: 15vw;
+    background: #ffffff;
+    box-shadow: 0px 0px 1.38vw rgba(0, 0, 0, 0.1);
+    border-radius: 0.83vw;
+  }
+
+  #summary-list li {
+    margin-left: 3vw;
+  }
+
+  #summary-list li span {
+    font-size: 1.85vw;
+    margin-top: 0vw;
+    align-self: center;
+  }
+
+  .summary-text-wrapper {
+    margin-left: 0.94vw;
+    width: 20vw;
+  }
+
+  .summary-name {
+    font-size: 0.69vw;
+  }
+
+  .summary-value {
+    font-size: 0.97vw;
+  }
+
+  #yields {
+    width: auto;
+    margin-top: 3.96vw;
+  }
+
+  #yields #yields-span {
+    font-size: 1.85vw;
+    margin-top: 0vw;
+  }
+
+  #prep-time {
+    margin-top: 2.98vw;
+  }
+
+  #cook-time {
+    margin-top: 2.98vw;
+    margin-left: 0vw;
+  }
+
+  #total-time {
+    margin-top: 2.98vw;
+    margin-left: 0vw;
+    margin-bottom: 3.47vw;
+  }
+
+  #ingredients-and-instructions-wrapper {
+    margin-top: 0vw;
+    width: 40.4vw;
+    margin-left: 0vw;
+    margin-right: auto;
+  }
+
+  h2 {
+    font-size: 1.6vw;
+  }
+
+  h3 {
+    margin-top: 2.2vw;
+    font-size: 1.25vw;
+  }
+
+  #ingredients-list {
+    margin-top: 2.15vw;
+  }
+
+  #ingredients-list li {
+    margin-bottom: 0.97vw;
+  }
+
+  input {
+    min-width: 1.46vw;
+    height: 1.46vw;
+    border-radius: 0.27vw;
+  }
+
+  #ingredients-list li label {
+    margin-top: 0.06vw;
+    font-size: 1.1vw;
+    line-height: 1.74vw;
+    margin-left: 1.18vw;
+  }
+
+  #instructions-wrapper {
+    margin-top: 0.97vw;
+  }
+
+  h4 {
+    line-height: 2.2vw;
+    font-size: 1.67vw;
+  }
+
+  #instructions-list {
+    margin-top: 1.94vw;
+  }
+
+  #instructions-list li {
+    margin-bottom: 2.2vw;
+  }
+
+  .instruction-pointer {
+    min-width: 2.5vw;
+    height: 2.5vw;
+    border-radius: 0.42vw;
+  }
+
+  .instruction-pointer>p {
+    font-size: 1.67vw;
+    margin-bottom: 0.49vw;
+  }
+
+  #instructions-list li>p {
+    font-size: 1.1vw;
+    margin-left: 1vw;
+    line-height: 1.67vw;
+    margin-bottom: 2vw;
+  }
+
+  #source {
+    margin-top: 3.96vw;
+    font-size: 1.1vw;
+    height: 1.67vw;
+  }
+
+  #source > br {
+    display: none;
+  }
+
+  footer {
+    margin-top: 6.46vw;
+    margin-bottom: 1.67vw;
+    font-size: 0.97vw;
+  }
 }
